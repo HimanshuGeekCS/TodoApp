@@ -1,0 +1,30 @@
+.input-filed {
+    height: 3rem;
+
+}
+
+.icon-size-1, .icon-size-2, .icon-size-3 {
+    font-size: 1.6rem !important;
+}
+
+.icon-size-1, .icon-size-2, .icon-size-3  {
+    transition: transform 0.3s ease-in-out !important;
+}
+
+
+.icon-size:hover {
+    transform: scale(1.2);
+    
+}
+.icon-size-1:hover {
+    transform: scale(1.2);
+    color: rgb(160, 160, 37);
+}
+.icon-size-2:hover {
+    transform: scale(1.2);
+    color: green;
+}
+.icon-size-3:hover {
+    transform: scale(1.2);
+    color: red;
+}
